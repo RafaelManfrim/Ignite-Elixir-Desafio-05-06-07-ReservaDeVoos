@@ -18,18 +18,18 @@
       "test": "test call/1 when all params are valid, returns a valid tuple"
     },
     {
-      "describe": "save/1",
-      "file": "/home/manfrim/Documentos/Cursos/Rocketseat/Elixir/desafios/Ignite-Elixir-Desafio-05-06-07-ReservaDeVoos/test/bookings/booking_agent_test.exs",
-      "line": 15,
-      "module": "Elixir.Flightex.Bookings.AgentTest",
-      "test": "test save/1 when the param are valid, return a booking uuid"
-    },
-    {
       "describe": "get/1",
       "file": "/home/manfrim/Documentos/Cursos/Rocketseat/Elixir/desafios/Ignite-Elixir-Desafio-05-06-07-ReservaDeVoos/test/bookings/booking_agent_test.exs",
       "line": 53,
       "module": "Elixir.Flightex.Bookings.AgentTest",
       "test": "test get/1 when the user wasn't found, returns an error"
+    },
+    {
+      "describe": "save/1",
+      "file": "/home/manfrim/Documentos/Cursos/Rocketseat/Elixir/desafios/Ignite-Elixir-Desafio-05-06-07-ReservaDeVoos/test/bookings/booking_agent_test.exs",
+      "line": 15,
+      "module": "Elixir.Flightex.Bookings.AgentTest",
+      "test": "test save/1 when the param are valid, return a booking uuid"
     },
     {
       "describe": "get/1",
@@ -53,6 +53,13 @@
       "test": "test build/4 when all params are valid, returns the user"
     },
     {
+      "describe": "get/1",
+      "file": "/home/manfrim/Documentos/Cursos/Rocketseat/Elixir/desafios/Ignite-Elixir-Desafio-05-06-07-ReservaDeVoos/test/users/user_agent_test.exs",
+      "line": 56,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test get/1 when the user is't founded, returns an error"
+    },
+    {
       "describe": "save/1",
       "file": "/home/manfrim/Documentos/Cursos/Rocketseat/Elixir/desafios/Ignite-Elixir-Desafio-05-06-07-ReservaDeVoos/test/users/user_agent_test.exs",
       "line": 18,
@@ -62,21 +69,28 @@
     {
       "describe": "get/1",
       "file": "/home/manfrim/Documentos/Cursos/Rocketseat/Elixir/desafios/Ignite-Elixir-Desafio-05-06-07-ReservaDeVoos/test/users/user_agent_test.exs",
-      "line": 56,
-      "module": "Elixir.Flightex.Users.AgentTest",
-      "test": "test get/1 when the user is't founded, returns an error"
-    },
-    {
-      "describe": "get/1",
-      "file": "/home/manfrim/Documentos/Cursos/Rocketseat/Elixir/desafios/Ignite-Elixir-Desafio-05-06-07-ReservaDeVoos/test/users/user_agent_test.exs",
       "line": 43,
       "module": "Elixir.Flightex.Users.AgentTest",
       "test": "test get/1 when the user is found, returns the user"
     },
     {
-      "describe": "generate/1",
+      "describe": "generate/2",
+      "file": "/home/manfrim/Documentos/Cursos/Rocketseat/Elixir/desafios/Ignite-Elixir-Desafio-05-06-07-ReservaDeVoos/test/bookings/report_test.exs",
+      "line": 75,
+      "module": "Elixir.Flightex.Bookings.ReportTest",
+      "test": "test generate/2 when called, return the content"
+    },
+    {
+      "describe": "generate/0",
       "file": "/home/manfrim/Documentos/Cursos/Rocketseat/Elixir/desafios/Ignite-Elixir-Desafio-05-06-07-ReservaDeVoos/test/bookings/report_test.exs",
       "line": 13,
+      "module": "Elixir.Flightex.Bookings.ReportTest",
+      "test": "test generate/0 when called, return the content"
+    },
+    {
+      "describe": "generate/1",
+      "file": "/home/manfrim/Documentos/Cursos/Rocketseat/Elixir/desafios/Ignite-Elixir-Desafio-05-06-07-ReservaDeVoos/test/bookings/report_test.exs",
+      "line": 49,
       "module": "Elixir.Flightex.Bookings.ReportTest",
       "test": "test generate/1 when called, return the content"
     },
